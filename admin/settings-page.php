@@ -67,7 +67,7 @@ function admin_certificate_ui() {
 		  					<div class="col-md-6">
 		  						<div class="form-group">
 		  							<label><?php echo esc_html__('Certification No', 'seg-witz'); ?></label>
-		  							<input type="text" required class="form-control" value="<?php echo substr(md5(rand()), 0, 7); ?>" name="certificate_code">
+		  							<input type="text" required class="form-control" name="certificate_code">
 		  						</div>
 		  					</div>
 		  					<div class="col-md-6">
